@@ -1,6 +1,6 @@
 {
 	"name": "hexagram-encode",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Represent binary data as I Ching hexagrams",
 	"homepage": "https://github.com/ferno/hexagram-encode",
 	"repository": {

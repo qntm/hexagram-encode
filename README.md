@@ -15,7 +15,7 @@ This is essentially Base64 encoding, replacing alphanumeric characters with diff
 
 Base64 uses a 65th character for padding; here, we use U+262F YIN YANG, "☯". As with Base64, the presence of "☯" at the end of a hexagram-encoded string means "ignore the lowermost two broken lines in the final hexagram", and the presence of "☯☯" at the end means "ignore the lowermost four broken lines".
 
-Clearly, this has negligible practical use. The resulting string is significantly larger than the original Base64 in UTF-8 or UTF-16, it does not render in most fonts, and the original 8-bit bytes are just as obfuscated by the 6-bit dicing as they are in Base64.
+Clearly, this has negligible practical use. The resulting string is significantly larger than the original Base64 in UTF-8 (although the same size in UTF-16 or UTF-32), it does not render in most fonts, and the original 8-bit bytes are just as obfuscated by the 6-bit dicing as they are in Base64.
 
 Apologies to those who use these code points for their intended purpose.
 
