@@ -1,0 +1,24 @@
+{
+	"name": "hexagram-encode",
+	"version": "0.0.1",
+	"description": "Represent binary data as I Ching hexagrams",
+	"homepage": "https://github.com/ferno/hexagram-encode",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ferno/hexagram-encode.git"
+	},
+	"main": "index.js",
+	"keywords": [
+		"hexagram",
+		"encoding",
+		"unicode",
+		"text",
+		"decoding",
+		"binary",
+		"useless"
+	],
+	"scripts": {},
+	"dependencies": [],
+	"author": "ferno",
+	"license": "MIT"
+}
