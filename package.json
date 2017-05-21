@@ -1,11 +1,11 @@
 {
 	"name": "hexagram-encode",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Represent binary data as I Ching hexagrams",
-	"homepage": "https://github.com/ferno/hexagram-encode",
+	"homepage": "https://github.com/qntm/hexagram-encode",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/ferno/hexagram-encode.git"
+		"url": "git://github.com/qntm/hexagram-encode.git"
 	},
 	"main": "index.js",
 	"keywords": [
@@ -19,6 +19,6 @@
 	],
 	"scripts": {},
 	"dependencies": [],
-	"author": "ferno",
+	"author": "qntm",
 	"license": "MIT"
 }
