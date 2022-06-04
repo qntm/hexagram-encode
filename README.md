@@ -28,15 +28,15 @@ npm install hexagram-encode
 ## Usage
 
 ```js
-var hexagramEncode = require("hexagram-encode");
+import { encode, decode } from 'hexagram-encode'
 
-var buf = new Buffer("ABCDEFGH456789+/", "base64");
+const buf = Buffer.from('ABCDEFGH456789+/', 'base64')
 
-var str = hexagramEncode.encode(buf); 
-console.log(str); // "䷁䷗䷆䷒䷎䷣䷭䷊䷋䷘䷅䷉䷠䷌䷫䷀"
+const str = encode(buf)
+console.log(str) // "䷁䷗䷆䷒䷎䷣䷭䷊䷋䷘䷅䷉䷠䷌䷫䷀"
 
-var buf2 = hexagramEncode.decode(str);
-console.log(buf.equals(buf2)); // true
+const buf2 = decode(str)
+console.log(buf.equals(buf2)) // true
 ```
 
 ## Notes
