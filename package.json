@@ -1,6 +1,6 @@
 {
   "name": "hexagram-encode",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Represent binary data as I Ching hexagrams",
   "homepage": "https://github.com/qntm/hexagram-encode",
   "repository": {
