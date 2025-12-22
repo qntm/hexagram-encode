@@ -19,7 +19,7 @@
     "useless"
   ],
   "scripts": {
-    "unit": "c8 --100 mocha",
+    "unit": "c8 --100 node --test",
     "postpublish": "npm version patch && git push",
     "standard": "standard",
     "test": "npm run standard && npm run unit"
@@ -31,7 +31,6 @@
   ],
   "devDependencies": {
     "c8": "^10.1.2",
-    "mocha": "^11.0.0",
     "standard": "^17.0.0"
   }
 }
