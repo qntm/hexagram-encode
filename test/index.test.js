@@ -1,6 +1,6 @@
 /* eslint-env mocha */
 
-import assert from 'assert'
+import assert from 'node:assert/strict'
 
 import { encode, decode } from '../src/index.js'
 
@@ -9,10 +9,10 @@ describe('hexagram-encode', () => {
     const buf = Buffer.from('ABCDEFGH456789+/', 'base64')
 
     const str = encode(buf)
-    assert.strictEqual(str, '䷁䷗䷆䷒䷎䷣䷭䷊䷋䷘䷅䷉䷠䷌䷫䷀')
+    assert.equal(str, '䷁䷗䷆䷒䷎䷣䷭䷊䷋䷘䷅䷉䷠䷌䷫䷀')
 
     const buf2 = decode(str)
-    assert.deepStrictEqual(buf2, buf)
+    assert.deepEqual(buf2, buf)
   })
 
   it('errors', () => {
